@@ -234,3 +234,14 @@ chatbotInput.addEventListener('keypress', (e) => {
         handleSendMessage();
     }
 });
+
+
+// Hero AI Button functionality
+const heroAIButton = document.getElementById('hero-ai-button');
+if (heroAIButton) {
+    heroAIButton.addEventListener('click', () => {
+        // Open the chatbot window
+        chatbotWindow.classList.remove('hidden');
+        chatbotInput.focus();
+    });
+}
