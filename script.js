@@ -162,8 +162,7 @@ async function sendMessage(userMessage) {
                 'Authorization': `Bearer ${HUGGINGFACE_API_KEY}`
             },
             body: JSON.stringify({
-                model: 'meta-llama/Llama-3.3-70B-Instruct',
-                messages: messages,
+                model: 'Qwen/Qwen2.5-72B-Instruct',                messages: messages,
                 max_tokens: 500,
                 temperature: 0.7
             })
