@@ -77,8 +77,7 @@ document.querySelectorAll('.service-card, .program-card, .stat-item').forEach(el
 
 // AI Chatbot Functionality
 const HUGGINGFACE_API_URL = 'https://router.huggingface.co/v1/chat/completions';
-const HUGGINGFACE_API_KEY = 'YOUR_API_KEY_HERE'; // Replace with your actual Hugging Face API key
-
+const HUGGINGFACE_API_KEY = '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'; // Replace with your actual Hugging Face API key
 const chatbotToggle = document.getElementById('chatbot-toggle');
 const chatbotWindow = document.getElementById('chatbot-window');
 const chatbotClose = document.getElementById('chatbot-close');
