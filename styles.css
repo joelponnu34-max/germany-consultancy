@@ -90,6 +90,16 @@ body {
     box-shadow: 0 5px 15px rgba(0,0,0,0.2);
 }
 
+.cta-button-ai {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    margin-left: 15px;
+}
+
+.cta-button-ai:hover {
+    transform: translateY(-3px) scale(1.05);
+    box-shadow: 0 8px 20px rgba(102, 126, 234, 0.4);
+}
+
 /* About Section */
 .about {
     padding: 80px 0;
